@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet">
     <title>Calculador triângulo</title>
 
   </head>
@@ -11,9 +12,9 @@
     <div>
       <div class="whole">  
         <h1 class="title">Calcular triângulo</h1>
-        <input class="lado1" type="number" name="Lado 1" placeholder="Lado 1" />
-        <input class="lado2" type="number" name="Lado 2" placeholder="Lado 2" />
-        <input class="lado3" type="number" name="Lado 3" placeholder="Lado 3" />
+        <input class="lado1" type="number" name="Lado 1" min="1" oninput="validity.valid||(value='');" placeholder="Lado 1" /> 
+        <input class="lado2" type="number" name="Lado 2" min="1" oninput="validity.valid||(value='');" placeholder="Lado 2" />
+        <input class="lado3" type="number" name="Lado 3" min="1" oninput="validity.valid||(value='');" placeholder="Lado 3" />
         <button class="button" onclick="calcularTriangulo()">Processar</button>
         <p id="calcularTriangulo">Esse triângulo é do tipo:<span></span></p>
         <script type="text/javascript" src="index.js"></script></div>
@@ -21,50 +22,3 @@
   </body>
 </html>
 
-<style>
-  .whole {
-    border: 2px solid black;
-    height: 400px;
-    width: 750px;
-    margin-left: 30%;
-  }
-  .title {
-    font-family: Arial;
-    font-size: 30px;
-    margin-left: 30px;
-
-  }
-  .lado1 {
-    height: 25px;
-    width: 550px;
-    margin-left: 20px;
-    margin-right: 800px;
-    margin-bottom: 30px;
-    
-  }
-  .lado2 {
-    height: 25px;
-    width: 550px;
-    margin-left: 20px;
-    margin-right: 800px;
-    margin-bottom: 30px;
-  }
-  .lado3 {
-    height: 25px;
-    width: 550px;
-    margin-left: 20px;
-    margin-right: 1000px;
-    margin-bottom: 30px;
-  }
-  .button {
-      height: 25px;
-      width: 115px;
-      cursor: pointer;
-      margin-left: 20px;
-      margin-bottom: 30px;
-      
-  }
-  p {
-    margin-left: 20px;
-  }
-</style>
