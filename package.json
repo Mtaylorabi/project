@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "projeto de bootcamp",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^9.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mtaylorabi/project.git"
+  },
+  "author": "Marius Taylor, Marcos Pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mtaylorabi/project/issues"
+  },
+  "homepage": "https://github.com/Mtaylorabi/project#readme"
+}
