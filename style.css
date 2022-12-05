@@ -1,7 +1,7 @@
 
   .whole {
     border: 2px solid black;
-    height: 600px;
+    height: 560px;
     width: 80%;
     display: inline-block;
     margin: auto;
@@ -12,24 +12,19 @@
     font-family: Arial;
     font-size: 40px;
     margin-left: 5%;
-    display: inline-block;
-
   }
   .lado1 {
     height: 35px;
     width: 60%;
     margin-top: 1%;
     margin-left: 5%;
-    margin-right: 800px;
     margin-bottom: 30px;
-    
   }
   .lado2 {
     height: 35px;
     width: 60%;
     margin-top: 1%;
     margin-left: 5%;
-    margin-right: 800px;
     margin-bottom: 30px;
   }
   .lado3 {
@@ -37,25 +32,23 @@
     width: 60%;
     margin-top: 1%;
     margin-left: 5%;
-    margin-right: 1000px;
     margin-bottom: 30px;
   }
   .button {
-      height: 5%;
-      width: 10%;
-      cursor: pointer;
-      margin-top: 1%;
-      margin-left: 5%;
-      margin-bottom: 3%;
-      font-size: medium;
-      display: inline-block;
-      
-  }
-  p {
+    height: 7%;
+    width: 13%;
+    cursor: pointer;
+    margin-top: 2%;
     margin-left: 5%;
-    font-size: 25px;
+    font-size: 18px;
+  }
+   p {
+    margin-top: 4%;
+    margin-left: 5%;
+    font-size: 30px;
   }
   .response-text {
-    color: orange;
-  }
+    font-size: 30px;
+    display: inline-block;
+    }
   
