@@ -24,13 +24,13 @@ function api() {
     .then(res => res.json())
     .then(data => {
       const responseElement = document.createElement('h');
-      responseElement.innerText = data.tipo;
+      responseElement.innerText = ` ${data.tipo}`;
       responseElement.classList.add('response-text');
-      if (responseElement.innerText === 'equilátero') {
+      if (responseElement.innerText.trim() === 'equilátero') {
         responseElement.style.color = '#FFA500';
-      } else if (responseElement.innerText === 'isósceles') {
+      } else if (responseElement.innerText.trim() === 'isósceles') {
         responseElement.style.color = '#0000FF';
-      } else if (responseElement.innerText === 'escaleno') {
+      } else if (responseElement.innerText.trim() === 'escaleno') {
         responseElement.style.color = '#90EE90';
       }
       document.querySelector('#calcularTriangulo').insertAdjacentElement('beforeend', responseElement);
