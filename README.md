@@ -1,2 +1,3 @@
 # project read me test
-push test
+This porject is made to creat a Frontend site with good practices such as having a seperate API for Backend calculations and a frontend that is well desinged and filters information(such as not allowing letters) for the API. The API is a seperate project on github called projectapi also made by me and Marcos and a automated cypress tester made also by me and Marcos.
+To run the server in command console Run npm install http-server -g then in visual Studio or whatever coder user run http-server to get the site online for local testing. its online as in not needing to run a debugger but rather straight from your internet navegator of choice using http://ocalhost:8080
